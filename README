@@ -1,0 +1,3 @@
+Ce plugin est la pour mettre facilement vos sites wordpress en conformité avec la futur application de la directive européenne concernant l'information et le choix des internautes concernant le stockage de cookies sur leur ordinateur lors de la visite de vos sites.
+
+Si l'utilisateur refuse l'utilisation des cookies via ce plugin alors tous les cookies seront supprimés sur le site a chaque chargement de page.
