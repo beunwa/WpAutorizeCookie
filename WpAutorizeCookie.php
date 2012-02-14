@@ -24,6 +24,7 @@ function wpac_popup(){
 			top:0;
 			background-color:#ccc;
 			text-align:center;
+			z-index: 1000;
 		}
 		
 		#wpacPopup .green{
