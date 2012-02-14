@@ -53,7 +53,7 @@ function wpac_check(){
 	
 	if(isset($_REQUEST['wpac_choice'])) setcookie('wpac_choice', $_REQUEST['wpac_choice'], 0, '/' );
 	//echo $_COOKIE['wpac_choice'];die();
-	if($_COOKIE['wpac_choice'] == 'decline'){
+	if($_COOKIE['wpac_choice'] == 'decline' && !is_user_logged_in()){
 		$past = time() - 3600;
 		foreach($_COOKIE as $key => $value ){
 			if($key == 'wpac_choice') continue;
